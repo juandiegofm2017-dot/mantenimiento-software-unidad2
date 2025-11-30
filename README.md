@@ -3,8 +3,8 @@
 Este repositorio contiene el proyecto colaborativo solicitado en la Unidad 2 del módulo Mantenimiento de Software.
 
 ## Integrantes
-- Juan Diego – [tu correo institucional] – [tu ID Banner]
-- Simón Rivas – simonr@ucompensar.edu.co – 90012345
+- Juan Diego Flauteros – jflauter@estudiante.ibero.edu.co
+- Gabriel Francisco Meza Hernández – Gmeza@estudiante.ibero.edu.co 
 
 ## Contenido del repositorio
 - Carpeta /proyecto: contiene el proyecto funcional.
