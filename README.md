@@ -19,7 +19,7 @@ Este repositorio contiene el proyecto colaborativo solicitado en la Unidad 2 del
 4. HU04 – Historial  
 5. HU05 – Eliminación de cuenta  
 
-## Comandos utilizados (según la actividad)
+## Comandos utilizados 
 git add  
 git commit  
 git push  
