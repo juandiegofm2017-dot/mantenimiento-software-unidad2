@@ -35,3 +35,4 @@ git log
 ---
 
 Este repositorio es parte del trabajo académico para el módulo Mantenimiento de Software, actividad práctica: Uso de Git y GitHub.
+Juan Diego – actualización de información del grupo y estructura del repositorio
