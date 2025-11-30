@@ -2,9 +2,13 @@
 
 Este repositorio contiene el proyecto colaborativo solicitado en la Unidad 2 del módulo Mantenimiento de Software.
 
-## Integrantes
-- Juan Diego Flauteros – jflauter@estudiante.ibero.edu.co
-- Gabriel Francisco Meza Hernández – Gmeza@estudiante.ibero.edu.co 
+## Integrantes del grupo
+
+- **Juan Diego F. M.** – juandiegofm2017@correo.edu – 
+  Rol: Creación del repositorio, estructura del proyecto, implementación HU01 y HU02.
+
+- **Gabriel Francisco Meza Hernández** – gmeza@estudiante.ibero.edu.co –
+  Rol: Implementación HU03, HU04 y apoyo en documentación. 
 
 ## Contenido del repositorio
 - Carpeta /proyecto: contiene el proyecto funcional.
