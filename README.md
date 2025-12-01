@@ -5,10 +5,10 @@ Este repositorio contiene el proyecto colaborativo solicitado en la Unidad 2 del
 ## Integrantes del grupo
 
 
-- **Juan Diego Flauteros mateus** – jflauter@estudiante.ibero.edu.co – 
+- **Juan Diego Flauteros mateus** – jflauter@estudiante.ibero.edu.co – id barner: 100175334
   Rol: Creación del repositorio, estructura del proyecto, implementación HU01 y HU02.
 
-- **Gabriel Francisco Meza Hernández** – gmeza@estudiante.ibero.edu.co –
+- **Jose fernando lopez** – jlopezfr@estudiante.ibero.edu.co – id Barner: 100180069
   Rol: Implementación HU03, HU04 y apoyo en documentación. 
 
 ## Contenido del repositorio
