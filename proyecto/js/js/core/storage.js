@@ -1,18 +1,18 @@
-(function () {
-  const USERS_KEY = "ms_users";
+// core/storage.js
+window.StorageUtil = {
+  key: "usuarios",
 
-  function getUsers() {
-    const raw = localStorage.getItem(USERS_KEY);
+  getUsers() {
+    const raw = localStorage.getItem(this.key);
     try {
       return raw ? JSON.parse(raw) : [];
     } catch (e) {
       return [];
     }
-  }
+  },
 
-  function saveUsers(users) {
-    localStorage.setItem(USERS_KEY, JSON.stringify(users));
+  saveUsers(users) {
+    localStorage.setItem(this.key, JSON.stringify(users));
   }
-
-  window.StorageMS = { getUsers, saveUsers };
-})();
+};
+;
