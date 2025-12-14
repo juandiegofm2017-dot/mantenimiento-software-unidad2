@@ -1,21 +1,22 @@
-(function () {
-  function registerUser(username) {
-    const users = window.StorageMS.getUsers();
+// features/auth.js
+window.Auth = {
+  register(username) {
+    if (!window.Validators.isNonEmptyString(username)) {
+      return { ok: false, msg: "Por favor ingresa un nombre válido." };
+    }
 
-    const exists = users.some(
-      (u) => u.username.toLowerCase() === username.toLowerCase()
-    );
+    const users = window.StorageUtil.getUsers();
+    const name = username.trim();
 
-    if (exists) return { ok: false, message: "El usuario ya existe." };
+    const exists = users.some(u => (u.nombre || "").toLowerCase() === name.toLowerCase());
+    if (exists) {
+      return { ok: false, msg: "El usuario ya existe. Intenta con otro nombre." };
+    }
 
-    users.push({
-      username,
-      createdAt: new Date().toISOString(),
-    });
+    users.push({ nombre: name, creadoEn: new Date().toISOString() });
+    window.StorageUtil.saveUsers(users);
 
-    window.StorageMS.saveUsers(users);
-    return { ok: true, message: "Usuario registrado con éxito." };
+    return { ok: true, msg: "Usuario registrado con éxito" };
   }
+};
 
-  window.AuthMS = { registerUser };
-})();
