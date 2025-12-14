@@ -13,7 +13,7 @@
     const username = inputUsuario.value;
 
     if (!window.ValidatorsMS || !window.AuthMS || !window.UIAlertsMS) {
-      setMsg("Error: scripts no cargaron. Revisa rutas en índice.html.");
+      setMsg("Error: scripts no cargaron. Revisa rutas en el HTML.");
       return;
     }
 
@@ -33,10 +33,10 @@
     if (result.ok) inputUsuario.value = "";
   }
 
-  // Si existe el botón con id, lo conectamos
   if (btnRegistrar) btnRegistrar.addEventListener("click", handleRegister);
 
-  // Compatibilidad: si el HTML tiene onclick="registrar()"
+  // Compatibilidad por si algún HTML viejo aún tiene onclick="registrar()"
   window.registrar = handleRegister;
 })();
+
 
